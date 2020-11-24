@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    position: relative;
+}
+
+header {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    padding-top: 10px;
+}
+
+h1 {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.banner-home img {
+    margin-top: 100px;
+    object-position: top;    
+    object-position: cover;    
+    width: 100%;
+}
+
+.ul-menu  {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ul-menu li {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.ul-menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.copyright-footer {
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    color: black;
+    margin: 0
+}
+
+.home-content {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 100px;
+    padding-top: 20px;
+}
+
+.home-content p {
+    padding-top: 20px;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: 0.9em;
+    overflow: hidden;
+}
+
+.font-color-orange {
+    color: orange;
+    font-weight: bold;
+    font-size: 0.9em;
+    line-height: 30px;
+}
+
+.conteudo-home {
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.conteudo-home-musicas {
+    float: left;
+    padding-top: 20px;
+    width: 50%;
+    margin: 0;
+    line-height: 40px;
+}
+
+.conteudo-home-imagem {
+    float: left;
+    width: 40%;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.conteudo-home-imagem img {
+    width: 100%;
+	height: auto;
+}
+
+
+#body-principal a.menu-home,
+#body-about a.menu-about,
+#body-music a.menu-music,
+#body-contact a.menu-contact {
+    color: crimson;
+    font-weight: bold;
+}
+
+.about-content {
+    width: 100%;
+    padding-top: 150px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.about-content h1 {
+    font-size: 2em;
+}
+
+.about-content h2 {
+    font-size: 1.5em;
+}
+
+.about-content h3 {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.about-img {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.about-img img {
+    width: 70%;
+    height: auto;
+    align-content: center;
+}
+
+.music-content {
+    padding-top: 150px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.music-ul {
+    margin-bottom: 40px;
+}
+.music-video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+}
+
+.music-text {
+    margin-bottom: 50px;
+}
+
+.contact-content {
+    padding-top: 150px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.contact-info {
+    line-height: 40px;   
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-content h1 {
+    font-size: 2em;
+}
+
+.contact-info h2 {
+    font-size: 1.5em;
+}
+
+.contact-info h3 {
+    text-decoration: none;
+    font-weight: normal;
+}
